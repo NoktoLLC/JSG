@@ -113,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () => {
       btnSpan.textContent = 'Sending…';
 
       try {
-        const response = await fetch('https://formspree.io/f/meedoqpj', {
+        const response = await fetch('https://formspree.io/f/xdajkkbg', {
           method: 'POST',
           body: new FormData(contactForm),
           headers: { 'Accept': 'application/json' }
